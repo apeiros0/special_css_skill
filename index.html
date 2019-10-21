@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS 特效</title>
+    <link rel="stylesheet" href="stylesheet/all.css">
+</head>
+
+<body class="d-flex justify-content-center align-items-center">
+    <div class="card custom-card container py-3">
+        <div class="card-bg"></div>
+        <nav class="navbar navbar-expand-lg navbar-dark row">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="row">
+            <div class="col-6 d-flex align-items-center">
+                <div class="text-white">
+                    <h1>Space is so good!</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur voluptate dicta porro, nam
+                        soluta ea repellat omnis distinctio! Doloribus enim neque ipsum illo modi vero quasi a
+                        accusantium ratione earum, consequuntur fuga id corrupti, architecto eligendi similique dicta
+                        est. Harum saepe enim ratione quam similique dolore libero voluptates fugiat suscipit. Aut
+                        cumque autem esse blanditiis pariatur ea excepturi. Aut odio, possimus ex iusto ut maxime nihil
+                        nesciunt architecto quae, corporis, vel quidem fuga! At reiciendis soluta explicabo recusandae
+                        nobis est itaque porro suscipit, nulla expedita incidunt sequi cumque similique quam corporis
+                        dignissimos. Repellendus fugiat, quam possimus vel sint eum commodi.</p>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control border-radious" placeholder="Recipient's username"
+                            aria-label="Recipient's username" aria-describedby="button-addon2">
+                        <div class="input-group-append">
+                            <button class="btn btn-primary border-radious" type="button"
+                                id="button-addon2">Button</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <img class="img-fluid"
+                    src="https://images.unsplash.com/photo-1536697246787-1f7ae568d89a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
+                    alt="space">
+            </div>
+        </div>
+
+        <span class="rectangle" style="top:110px; left: -30px;"></span>
+        <span class="circle" style="top: 30px; right: -30px;"></span>
+        <!-- svg 不用填 px -->
+        <svg class="triangle mt-2" width="80" height="80" style="bottom: -30px; left: 150px;">
+            <polygon class="triangle-polygon" points="40, 15  65, 65  15, 65"></polygon>
+        </svg>
+    </div>
+</body>
+
+</html>
